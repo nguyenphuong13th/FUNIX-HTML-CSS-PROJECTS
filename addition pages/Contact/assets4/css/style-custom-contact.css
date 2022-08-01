@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto+Mono:wght@100;400&display=swap');
+*{
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", Arial, sans-serif;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+.navbar-brand__color__font{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background:linear-gradient(45deg,#f403d1,#64b5f6);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+}
+.space{
+    width:70%;
+    
+}
+
+.nav-link-item__color{
+    color:rgb(163,163,163);
+}
+
+
+.navbar-bg-color{
+    background-color:rgb(230 221 221 / 60%);
+    
+   
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(224,200,15);
+}
+
+.pb-7{
+    padding-bottom: 7rem;
+}
+.py-7{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.pb-10{
+    padding-bottom: 10rem;
+}
+
+.form-color{
+    color:rgb(195,195,195);
+}
+.btn{
+    transform: scale(1);
+    background-color: rgb(255,221,1);
+    color:#fff;
+}
+.btn:hover{
+    transform: scale(0.9);
+}
+.address-moreinfo{
+    background-color: rgb(44,46,62);
+    color: rgba(255, 255, 255, 0.5) 
+}
+.footer-infoicon__color{
+    color:rgb(165,165,165);
+}
+.author-name,.image-source{
+    color:rgb(242,168,56);
+}
+.yellow-social-icon{
+    color:rgb(255,221,0);
+}
+.heart{
+    color:pink;
+}
