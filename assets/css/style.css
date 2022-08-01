@@ -1,0 +1,167 @@
+*{
+    font-size:100%;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    width:100vw;
+    height:100vh;
+}
+.container{
+    max-width:75rem;
+    margin:0 auto;
+}
+.navbar{
+    display: block;
+    height:3.125rem;
+}
+.navbar_list-left{
+    margin: 0;
+    padding:0;
+}
+.nav_list-right{
+    margin: 0;
+    padding:0;
+}
+.navbar_items{
+    list-style-type: none;
+   
+}
+.navbar_items-link{
+    color:rgb(143,129,130);
+    text-decoration: none;
+    padding:0.625rem;
+}
+.navbar_items--floatleft{
+    float: left;
+}
+.navbar_items--floatright{
+    float:right;
+}
+.navbar_items--spaceX{
+    margin-left:0.625rem;
+}
+.navbar_items--space-X{
+    margin-right: 0.625rem;
+}
+.banner{
+  display: block;
+  max-height:33rem;
+}
+.banner_image{
+    width:100vw;
+}
+.banner_image img{
+    width:100%;
+}
+.banner_content{
+    position: relative;
+    top:-22.1875rem;
+    display: block;
+}
+.banner_title{
+    font-size: xx-large;
+    color:#fff;
+    z-index: 1000;
+    display: block;
+}
+.banner_detail{
+    font-size: large;
+    color:#fff;
+    z-index: 1000;
+    position: absolute;
+}
+#content{
+    background-color:  hsl(0,0%,93%);
+    height:32rem;
+}
+
+.content_titleanddetai{
+    display: block;
+    margin-bottom: 4rem;
+    position: relative;
+    height:3.125rem;
+   
+
+}
+.content_title{
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    top:1.875rem;
+    color: rgb(143,129,130);
+    
+}
+.content_detail{
+    position: absolute;
+    font-weight: lighter;
+    display: block;
+    top:4.375rem;
+    color: rgb(143,129,130);
+}
+.content_image{
+    margin-bottom:1.25rem;
+    display: block;
+}
+.content_image img{
+    max-width:22.5rem;
+}
+
+.content_image-col1{
+    width:30%;
+    float:left;
+    display: block;
+    
+}
+.content_image-col2{
+   width:30%;
+   float:left;
+   margin-left: 5%;
+   display: block;
+    
+}
+.content_image-col3{
+    float:left;
+    width:30%;
+    margin-left: 5%;
+    display: block;
+}
+
+.content_image--marginY{
+    margin-bottom: 8%;
+}
+
+
+#footer{
+    clear: both;
+    max-height:12.5rem;
+    background-color: rgb(247,247,247);
+}
+.footer_col1{
+    margin-top: 3.75rem;
+    width:30%;
+    float:left;
+}
+.footer_col2{
+    margin-top: 3.75rem;
+    float:left;
+    width:30%;
+    margin-left: 5%;
+}
+.footer_col3{
+    margin-top: 3.75rem;
+    float:left;
+    width:30%;
+    margin-left: 5%;
+}
+#footer p{
+    margin-bottom: 0.625rem;
+}
+#footer a{
+    color:rgb(122,211,249);
+    text-decoration: none;
+    padding-bottom: 3.125rem;
+}
